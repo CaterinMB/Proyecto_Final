@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Predicción de enfermedad</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Predicción de enfermedad</h1>
+        <form action="/predict" method="post">
+
+            <div class="columnas">
+                <label for="Fiebre">Fiebre: </label>
+                <input type="number" name="Fiebre" id="Fiebre" step="0.1" min="0" max="1" required>
+
+                <label for="Tos">Tos: </label>
+                <input type="number" name="Tos" id="Tos" step="0.1" min="0" max="1" required>
+
+                <label for="Dolor_de_garganta">Dolor_de_garganta: </label>
+                <input type="number" name="Dolor_de_garganta" id="Dolor_de_garganta" step="0.1" min="0" max="1" required>
+
+                <label for="Congestión_nasal">Congestión_nasal: </label>
+                <input type="number" name="Congestión_nasal" id="Congestión_nasal" step="0.1" min="0" max="1" required>
+
+                <label for="Dificultad_respiratoria">Dificultad_respiratoria: </label>
+                <input type="number" name="Dificultad_respiratoria" id="Dificultad_respiratoria" step="0.1" min="0" max="1" required>
+
+               </div>
+
+            <button type="submit">Realizar Predicción</button>
+        </form>
+    </div>
+</body>
+
+</html>

@@ -1,84 +1,78 @@
 /* Estilos generales */
 body {
     font-family: Arial, sans-serif;
-    background-color: #414141;
-}
-
-.container {
+    background-color: #1a1e22;
+  }
+  
+  .container {
     max-width: 550px;
     margin: 0 auto;
     padding: 20px;
-    background-color: #d1d1d1;
+    background-color: #fff;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-.columnas {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 15px;
-}
-
-h1 {
+  }
+  
+  h1 {
     text-align: center;
     margin-bottom: 20px;
-}
-
-/* Estilos del formulario */
-form {
+  }
+  
+  /* Estilos del formulario */
+  form {
     margin-bottom: 20px;
-}
-
-label {
+  }
+  
+  label {
     display: block;
     font-weight: bold;
     margin-bottom: 5px;
-}
-
-input[type="number"],
-select {
+  }
+  
+  input[type="number"],
+  select {
     width: 95%;
     padding: 10px;
     margin-bottom: 10px;
-    border: 1px solid #e7e7e7;
+    border: 1px solid #ccc;
     border-radius: 5px;
-}
-
-button[type="submit"] {
+  }
+  
+  button[type="submit"] {
     display: block;
     width: 100%;
     padding: 10px;
-    background-color: #28d82e;
-    color: #e7e7e7;
+    background-color: #4caf50;
+    color: #fff;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-}
-
-/* Estilos del resultado */
-.result {
+  }
+  
+  /* Estilos del resultado */
+  .result {
     text-align: center;
     margin-bottom: 20px;
-}
-
-h2 {
-    margin-bottom: 15px;
-}
-
-p {
-    font-size: 20px;
-}
-
-.button {
+  }
+  
+  h2 {
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 18px;
+  }
+  
+  .button {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #28d82e;
-    color: #e7e7e7;
+    background-color: #4caf50;
+    color: #fff;
     text-decoration: none;
     border-radius: 5px;
     transition: background-color 0.3s;
-}
-
-.button:hover {
-    background-color: #28d82e;
-}
+  }
+  
+  .button:hover {
+    background-color: #45a049;
+  }
